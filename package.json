@@ -1,0 +1,11 @@
+{
+  "name": "site-checker",
+  "version": "1.0.0",
+  "scripts": {
+    "track google.com": "pm2 start ./runners/google.com.config.js",
+    "track github.com": "pm2 start ./runners/github.com.config.js"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.10"
+  }
+}
